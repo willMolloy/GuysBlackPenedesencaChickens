@@ -1,0 +1,30 @@
+#overview {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#overview h2{
+    text-align: center;
+    margin-top:8%;
+    margin-bottom:2%
+}
+#overview h3 {
+    text-align:center;
+    margin-bottom:2%;
+    margin-top:7%;
+}
+#overview h4 {
+    text-align: center;
+    margin-bottom:3%;
+    margin-top: 5%;
+}
+#pricing {
+    text-align:center;
+}
+#pricing h4{
+    margin-bottom:1%;
+}
+#pricing p {
+    margin-bottom:5%;
+    padding-bottom:2%;
+    border-bottom: 2px black dotted;
+}

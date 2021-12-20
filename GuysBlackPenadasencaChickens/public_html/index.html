@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Guy's Black Penedesenca Chickens</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="homePage.css" rel="stylesheet"/>
+        <link href="main.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script src="Main.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                    <img class ='logo' src="images/logo.jpg" alt="Black Penedesenca Backyard Chicken"/>
+                    <div id="logoTextContainer">
+                         <div id="textLine1">
+                              <h1 class='logoText'>Guy's Black</h1>
+                          </div>
+                          <div id="textLine2">
+                             <h1 class='logoText'>Penedesenca Chickens</h1>
+                         </div>
+                    </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class ="fa fa-bars"></i>
+                </label>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Order.html">Order</a></li>
+                        <li><a href="Resources.html">Guy's Favorite Resources</a></li>
+                    </ul>
+            </nav>
+        </header>
+        
+    
+        
+        <div class='top'>
+            <h2>The Black Penedesenca, a rare breed from Spain, will gives you x,y and z features. Learn why it might be the breed for you
+                and why you should get your chicks from Guy.</h2>
+        </div>
+    
+        <div class="twoColumns">
+            <aside class ="column" id="column1">
+                <h2>Why buy from Guy?</h2>
+                <img src="Images/Guy.png" alt="Guy Niere, Black Penedesenca Whisperer" class="mainColumnImage"/>              
+                
+                <!-- content that will initially be hidden but displays on click of button -->
+                <div id='firstColExpand'>
+                <h3>Guy's Experience as a Black Penedesenca owner</h3>
+                <img src='Images/blackpen.jpg' alt='Guy, the black penedesenca owner' class='listImage'/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Turpis egestas integer eget aliquet nibh. Mattis aliquam faucibus purus in massa tempor. Volutpat odio facilisis mauris sit 
+                    amet massa vitae tortor condimentum.</p>
+                
+                <h3>Guy's chicken protocols</h3>
+                <img src='Images/blackpen.jpg' alt='Guy handling his black penedesancas' class='listImage'/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Turpis egestas integer eget aliquet nibh. Mattis aliquam faucibus purus in massa tempor. Volutpat odio facilisis mauris sit 
+                    amet massa vitae tortor condimentum.</p>
+                
+                <h3>Guy's Flock</h3>
+                <img src='Images/blackpen.jpg' alt="Guy's flock of black penedesenca chickens" class='listImage'/>
+                <p id="lastP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Turpis egestas integer eget aliquet nibh. Mattis aliquam faucibus purus in massa tempor. Volutpat odio facilisis mauris sit 
+                    amet massa vitae tortor condimentum.</p>
+                </div>
+            
+                <button class="expandBtn" id="expandGuy">Click to learn about Guy</button>
+            </aside>
+            
+            <aside class ="column" id="column2">
+                <h2>Why the black penedesenca?</h2>
+                <img src="Images/blackpenedesenca.jpg" alt="Black Penedesenca Chicken" class="mainColumnImage"/>
+                
+                <!-- content that will initially be hidden but displays on click of button -->
+                <div id="secondColExpand">
+                <h3>Features of the Black Penedesenca</h3>
+                <ul class="featuresList">
+                    <li><h4>&#8226; Predator Evasion</h4><br>
+                        <img src="Images/predator.jpg" alt="Black Penedesenca Predator" class="listImage"/>
+                        <br><a href="#">article</a>
+                        <br><a href="#">article</a>
+                    </li>
+                    <li><h4>&#8226; Penedesenca Egg Production</h4><br>
+                        <img src="Images/eggProduction.jpg" alt="Black Penedesenca Egg Production" class="listImage"/>
+                        <br><a href="#">article</a>
+                        <br><a href="#">article</a>
+                    </li>
+                    <li><h4>&#8226; Meat Quality</h4><br>
+                        <img src="Images/cookedChicken.jpg" alt="Cooked Black Penedesenca Chicken" class="listImage"/>
+                        <br><a href="#">article</a>
+                    </li>
+                    <li><h4>&#8226; Heat/Cold Resistance</h4><br>
+                        <img src="Images/coldChicken.jpg" alt="Cold and Heat Tolerant Chickens" class="listImage"/>
+                        <br><a href="#">article</a>
+                        <br><a href="#" id="lastArticle">article</a>
+                    </li>
+                </ul>
+                </div>
+                <button class="expandBtn" id="expandChx">Click to see more about the breed</button>
+            </aside>
+        </div>
+        
+        
+        
+        <footer>
+            <div class="innerFooter">
+                <div class="socialLogos">
+                    <ul>
+                        <li class ="socialItem"><a href="#"><i class="fa fa-facebook square"></i></a></li>
+                        <li class ="socialItem"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class ="socialItem"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>     
+
+                <div class="footerLinks">
+                    <ul>
+                        <li class="footerLink"><a href="index.html">Home</a></li>
+                        <li class="footerLink"><a href="Order.html">Order</a></li>
+                        <li class="footerLink"><a href="Resources.html">Guy's Favorite Chicken Resources</a></li>
+                    </ul>
+                </div>
+                <p>guy@hotmail.com</p>
+            </div>
+            <div class='outerFooter'>
+                <h4>Copyright &copy; Guy's Black Penadasencas. All Rights Reserved</h4>
+            </div>
+        </footer>
+    </body>
+</html>
